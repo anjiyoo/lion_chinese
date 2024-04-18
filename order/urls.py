@@ -5,4 +5,5 @@ app_name = 'order'
 
 urlpatterns = [
     path('order_detail/<int:pk>/', views.order_detail, name='order_detail'),  # 제품 상세 url
+    path('modify_cart/', views.modify_cart, name='modify_cart'),
 ]
